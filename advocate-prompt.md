@@ -27,9 +27,10 @@ KILL SHOT
 <The single strongest reason this decision is wrong. An assertion with a mechanism: "X is wrong because Y, which means Z." Not a question. Two to five sentences.>
 
 RANKED ATTACKS
-1. <attack> | Holds if: <condition> | Check: <something that takes under an hour>
-2. <attack> | Holds if: <condition> | Check: <...>
-3. <attack> | Holds if: <condition> | Check: <...>
+1. <attack> | Holds if: <what must be true for this attack to land> | Check: <something that takes under an hour>
+2. <attack> | Holds if: <...> | Check: <...>
+3. <attack> | Holds if: <...> | Check: <...>
+Exactly three. If you have more, the fourth-best is noise — merge it or drop it.
 
 CHEAPER ALTERNATIVE
 <What gets ~80% of the benefit at ~20% of the cost. One paragraph. If none exists, say "None" and why.>

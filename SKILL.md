@@ -37,7 +37,7 @@ Give it ONLY the claim block plus any raw data or files it needs. Never the tran
 The Advocate returns, in this order:
 
 1. **KILL SHOT** — the single strongest reason the decision is wrong, as an assertion with a mechanism, not a question
-2. **RANKED ATTACKS** (max 3) — each with: the attack, what would have to be true for it to hold, a check that takes under one hour
+2. **RANKED ATTACKS** (exactly 3) — each with: the attack, what must be true for it to land, a check that takes under one hour
 3. **CHEAPER ALTERNATIVE** — what gets 80% of the benefit at 20% of the cost
 4. **P(MISTAKE)** — a number, 0–100%, with one sentence of reasoning
 
