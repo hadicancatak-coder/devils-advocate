@@ -12,6 +12,8 @@ LOAD-BEARING ASSUMPTION: <the one thing that, if false, kills it>
 
 <Optional: raw data, file excerpts, metrics. Nothing else.>
 
+The LOAD-BEARING ASSUMPTION above was chosen by the proposer, who is not neutral. If a different assumption is actually load-bearing, attack that one and say so.
+
 Attack surface, in priority order. Check each before writing:
 1. Causal story — does the evidence actually show the mechanism, or a correlation with a popular explanation attached?
 2. Load-bearing assumption — what is the cheapest way it could be false?

@@ -25,6 +25,10 @@ This skill fixes both. The Advocate runs as a subagent that sees only the claim,
 
 Council is for "which of these is best". This is for "am I about to do something stupid".
 
+## What it does and doesn't prove
+
+Tested so far: the skill reliably changes the *shape* of the critique (ranked, assertive, numeric, verdict) versus an unprompted "play devil's advocate", across five subagent runs on test scenarios, and it returns a low P(MISTAKE) on a decision that is actually sound rather than manufacturing a kill shot. Not yet measured: whether the kill shots are more often *correct* on real decisions with known outcomes. Treat P(MISTAKE) as the adversary's calibrated guess, not a measurement. If you run it on a real decision and later learn the outcome, open an issue with both.
+
 ## Install
 
 Claude Code:
@@ -67,13 +71,13 @@ KILL SHOT — REBUT / CONCEDE / UNRESOLVED
 PROCEED | PROCEED IF <checks> | STOP
 ```
 
-See [examples/](examples/) for real runs.
+See [examples/](examples/) for a full run on a test scenario, including what the same prompt produced without the skill.
 
 ## Files
 
 - `SKILL.md` — the workflow the in-context agent follows
 - `advocate-prompt.md` — the exact prompt the adversary subagent receives
-- `examples/` — full runs on real decisions
+- `examples/` — full runs on test scenarios
 
 ## License
 

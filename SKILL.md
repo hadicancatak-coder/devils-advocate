@@ -32,7 +32,7 @@ LOAD-BEARING ASSUMPTION: <the one thing that, if false, kills the claim>
 
 ### 2. Dispatch one Advocate (fresh subagent, no conversation history)
 
-Give it ONLY the claim block plus any raw data or files it needs. Never the transcript, never your reasoning, never your preferred answer. Use the prompt in [advocate-prompt.md](advocate-prompt.md) verbatim.
+Give it ONLY the claim block plus any raw data or files it needs. The prompt tells the Advocate that you chose the load-bearing assumption and that it may attack a different one; do not remove that line. Never the transcript, never your reasoning, never your preferred answer. Use the prompt in [advocate-prompt.md](advocate-prompt.md) verbatim.
 
 The Advocate returns, in this order:
 
