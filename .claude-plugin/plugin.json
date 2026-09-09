@@ -1,6 +1,6 @@
 {
   "name": "devils-advocate",
-  "description": "One cold adversary attacks your decision before you act on it: a kill shot, three ranked attacks with sub-hour checks, a cheaper alternative, a probability you are wrong. You answer every attack with evidence or concede, then a forced verdict. Simpler and harsher than an LLM council.",
+  "description": "One cold adversary attacks your decision before you act on it: kill shot, three ranked attacks, P(mistake), forced verdict.",
   "version": "1.0.0",
   "author": {
     "name": "Hadican Catak",
