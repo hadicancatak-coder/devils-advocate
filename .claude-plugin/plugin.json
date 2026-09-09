@@ -1,6 +1,6 @@
 {
   "name": "devils-advocate",
-  "description": "One cold adversary attacks your decision before you act on it: kill shot, three ranked attacks, P(mistake), forced verdict.",
+  "description": "Play devil's advocate on a decision before you commit. A cold-context adversary returns one kill shot, three ranked attacks each with a check you can run in under an hour, the cheaper alternative, and a probability you're wrong. You answer with evidence or concede, then a forced verdict. For rewrites, budget moves, launches, and any call that is expensive to reverse.",
   "version": "1.0.0",
   "author": {
     "name": "Hadican Catak",
@@ -16,6 +16,8 @@
     "critique",
     "adversarial",
     "pre-mortem",
-    "council"
+    "second-opinion",
+    "council",
+    "stress-test"
   ]
 }

@@ -43,6 +43,18 @@ No overlap between sound and bad at a threshold of 60. The kill-shot theme agree
 
 Not yet measured: whether kill shots are usually *right* on real decisions with known outcomes. If you run it on a real decision and later learn what happened, file an [outcome report](https://github.com/hadicancatak-coder/devils-advocate/issues/new?template=outcome-report.yml). That is the only way the accuracy claim gets built.
 
+## It killed its own launch plan
+
+[examples/visibility-plan.md](examples/visibility-plan.md) is a real run, not a scenario. The plan was to submit this plugin to the community "awesome" lists. The Advocate said curated lists are "a graveyard with a README" and told us to go count open PRs. We did:
+
+| List | Stars | Last push | Oldest open PR |
+|---|---|---|---|
+| composio-community | 1946 | 2026-07-26 | 2026-07-14 |
+| ananddtyagi/cc-marketplace | 688 | 2026-01-18 | 2025-10-15 |
+| GiladShoham | 51 | 2025-10-12 | 2026-02-08 |
+
+Three of four stalled, PRs open up to eleven months. Verdict: **STOP**. The plan changed. It also conceded, with the file line counts as evidence, that most of this repo's value is one 65-line prompt anyone can paste, so stars will overstate real usage. That concession is in the README because the skill's own rules say a CONCEDE has to change something.
+
 ## Install
 
 As a plugin (skill + `/devils-advocate` command + `advocate` agent):

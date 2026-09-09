@@ -8,7 +8,7 @@
     {
       "name": "devils-advocate",
       "source": "./",
-      "description": "One cold adversary attacks your decision before you act on it. Kill shot, three ranked attacks, cheaper alternative, P(mistake), forced verdict."
+      "description": "Play devil's advocate on a decision before you commit. Kill shot, three ranked attacks with runnable checks, cheaper alternative, P(mistake), forced verdict."
     }
   ],
   "metadata": {
