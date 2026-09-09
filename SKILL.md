@@ -15,7 +15,7 @@ One fresh-context adversary whose only job is to prove the decision wrong. You j
 - A conclusion drawn from data that fits a story everyone already believes
 - The user asks for pushback, holes, a stress test, or a red team
 
-Don't use for: factual questions, obvious execution tasks, code review (use a reviewer), or choosing between many open options (use `council`).
+Don't use for: factual questions, obvious execution tasks, code review (use a reviewer), or choosing between many open options (that is an LLM Council problem, see the last section).
 
 ## Workflow
 
@@ -65,7 +65,7 @@ An UNRESOLVED kill shot can never produce PROCEED.
 
 ### 5. One rebuttal round (optional, max one)
 
-If you REBUT the kill shot, send only the rebuttal and its evidence back to the same Advocate. It replies ACCEPT or ESCALATE with one paragraph. Then verdict. Never a third round.
+If you REBUT the kill shot, dispatch a fresh Advocate with the original kill shot, your rebuttal, and its evidence, using the rebuttal prompt in [advocate-prompt.md](advocate-prompt.md). It replies ACCEPT or ESCALATE with one paragraph. Then verdict. Never a third round.
 
 ## The output the user sees
 

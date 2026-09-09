@@ -15,7 +15,7 @@ This skill fixes both. The Advocate runs as a subagent that sees only the claim,
 
 ## Compared to Karpathy's LLM Council
 
-| | LLM Council | devils-advocate |
+| | LLM Council | GF Devil's Advocate |
 |---|---|---|
 | Agents | N models + chairman | 1 adversary + you as judge |
 | Goal | Best-rounded answer | Find the one reason you're wrong |
