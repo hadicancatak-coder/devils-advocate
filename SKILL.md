@@ -1,9 +1,9 @@
 ---
-name: devils-advocate
+name: gf-devils-advocate
 description: Use when about to commit to a decision, plan, conclusion, or recommendation and it needs to be attacked before anyone acts on it — especially when everyone already agrees, money or time is already sunk, a deadline is pushing toward yes, or the user says "poke holes", "stress test", "red team", "what am I missing".
 ---
 
-# Devil's Advocate
+# GF Devil's Advocate
 
 One fresh-context adversary whose only job is to prove the decision wrong. You judge. No consensus, no balance, no "on the other hand". A forced verdict at the end.
 

@@ -1,6 +1,6 @@
-# devils-advocate
+# GF Devil's Advocate
 
-A Claude Code skill that attacks your decision before you act on it.
+Part of the Growth Fabric agent tooling, alongside [GF Creative Team](https://github.com/hadicancatak-coder/GF-Creative-Team). A Claude Code skill that attacks your decision before you act on it.
 
 One fresh-context adversary. No consensus, no balance, no "on the other hand". You answer every attack with evidence or you concede. Then a one-word verdict.
 
@@ -30,19 +30,19 @@ Council is for "which of these is best". This is for "am I about to do something
 Claude Code:
 
 ```bash
-git clone https://github.com/hadicancatak-coder/devils-advocate ~/.claude/skills/devils-advocate
+git clone https://github.com/hadicancatak-coder/GF-Devils-Advocate ~/.claude/skills/gf-devils-advocate
 ```
 
 Or with the skills CLI (works for Claude Code, Codex, Cursor and others):
 
 ```bash
-npx skills add hadicancatak-coder/devils-advocate
+npx skills add hadicancatak-coder/GF-Devils-Advocate
 ```
 
 ## Use
 
 ```
-/devils-advocate I'm going to rewrite our Python ETL in Rust over the next 2 months
+/gf-devils-advocate I'm going to rewrite our Python ETL in Rust over the next 2 months
 ```
 
 Or just describe a decision and say "stress test this" / "poke holes" / "red team this". The skill triggers on its own.
