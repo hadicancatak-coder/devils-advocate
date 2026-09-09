@@ -1,0 +1,40 @@
+name: Outcome report
+description: You ran the skill on a real decision and later learned what actually happened. This is the only way the accuracy claim gets built.
+title: "Outcome: <one-line decision>"
+labels: [outcome]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim block
+      description: The CLAIM / EVIDENCE FOR / COST IF WRONG / LOAD-BEARING ASSUMPTION you gave the Advocate. Redact anything private.
+    validations:
+      required: true
+  - type: textarea
+    id: advocate
+    attributes:
+      label: Advocate output
+      description: Kill shot and P(MISTAKE) at minimum.
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict you issued
+      options: [PROCEED, PROCEED IF, STOP]
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What actually happened
+      description: Weeks or months later. Was the kill shot right, wrong, or irrelevant?
+    validations:
+      required: true
+  - type: dropdown
+    id: score
+    attributes:
+      label: Was the kill shot the thing that mattered?
+      options: ["Yes, it was the real risk", "Partly", "No, something else happened", "Decision was fine, kill shot was noise"]
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+{
+  "name": "devils-advocate",
+  "owner": {
+    "name": "Hadican Catak",
+    "url": "https://github.com/hadicancatak-coder"
+  },
+  "plugins": [
+    {
+      "name": "devils-advocate",
+      "source": "./",
+      "description": "One cold adversary attacks your decision before you act on it. Kill shot, three ranked attacks, cheaper alternative, P(mistake), forced verdict."
+    }
+  ],
+  "metadata": {
+    "description": "Growth Fabric decision tooling for Claude Code."
+  }
+}
