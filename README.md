@@ -39,7 +39,9 @@ Calibration on 8 scenarios, 2 runs each, Sonnet as the Advocate:
 | Sound, claim worded precisely (2 scenarios) | 20–35% |
 | Sound action, claim overclaimed or bundled (2 scenarios) | 55–60% |
 
-No overlap between sound and bad at a threshold of 60. The kill-shot theme agreed across both runs in all 8 scenarios. On the overclaimed ones the Advocate said, both times, that the action was fine and the sentence was too big. Full table, scenarios, and the one contract violation found during testing are in [evals/](evals/).
+No overlap between sound and bad at a threshold of 60. The kill-shot theme agreed across both runs in all 8 scenarios. On the overclaimed ones the Advocate said, both times, that the action was fine and the sentence was too big.
+
+Run it yourself: the eight claim blocks are in [evals/scenarios.md](evals/scenarios.md), the per-run numbers and the one contract violation found during testing are in [evals/results.md](evals/results.md), and the pass criteria any prompt change has to clear are in [evals/README.md](evals/README.md). Paste a scenario into the Advocate prompt and compare.
 
 Not yet measured: whether kill shots are usually *right* on real decisions with known outcomes. If you run it on a real decision and later learn what happened, file an [outcome report](https://github.com/hadicancatak-coder/devils-advocate/issues/new?template=outcome-report.yml). That is the only way the accuracy claim gets built.
 
@@ -53,7 +55,7 @@ Not yet measured: whether kill shots are usually *right* on real decisions with 
 | ananddtyagi/cc-marketplace | 688 | 2026-01-18 | 2025-10-15 |
 | GiladShoham | 51 | 2025-10-12 | 2026-02-08 |
 
-Three of four stalled, PRs open up to eleven months. Verdict: **STOP**. The plan changed. It also conceded, with the file line counts as evidence, that most of this repo's value is one 65-line prompt anyone can paste, so stars will overstate real usage. That concession is in the README because the skill's own rules say a CONCEDE has to change something.
+Three of four stalled, PRs open up to eleven months. Verdict: **STOP**. The plan changed. It also conceded, with the file line counts as evidence, that the adversary is one 65-line prompt anyone can paste, so stars will overstate real usage. What a paste does not give you is the rest of the loop: the judge that runs each proposed check before labelling it, the CONCEDE / REBUT / UNRESOLVED discipline, the forced verdict, and the eight-scenario calibration that says what the number means. That concession sits in the README because the skill's own rules say a CONCEDE has to change something.
 
 ## Install
 

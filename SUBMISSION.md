@@ -60,6 +60,33 @@ Development workflows  /  Productivity
 devil-advocate, devils-advocate, red-team, decision-making, critique, adversarial, pre-mortem, second-opinion, stress-test
 ```
 
+## Pre-admission review
+
+Run before submitting, 2026-09-10. The claim under attack was "this will be approved on
+first submission." The Advocate returned 65% and three attacks. Each was checked.
+
+**Is the near-identical name a dedupe or rename risk?** No. Fifty name pairs already in the
+approved catalog differ by exactly one character, including `agent-discover`/`agent-discovery`,
+`ai-dev-kit`/`ai-devkit`, `chuck`/`chucks`, and `clarify`/`clarity`. One-character-apart names
+are routinely approved.
+
+**Is the incumbent `devils-advocate` the same product?** No. It is a Japanese-language
+single agent, five files and 367 lines, with no skill, no verdict, no probability, and no
+evals. Its stated rule is the opposite of this one: it requires every criticism to arrive
+with an improvement suggestion attached. Different language, different mechanism, different
+output contract.
+
+**Is approval a fast human quality gate?** No, and this is the finding that matters. The
+community repo carries ten public submission-status inquiries, nine of them still open with
+no reply. Authors report waits of six days, one month, and about three months with no
+confirmation and no rejection. Treat submission as joining a slow queue, not as a decision
+that comes back quickly.
+
+Changes made as a result: the marketplace metadata no longer reads as one company's internal
+tooling, the README now points at the scenario files so the calibration is reproducible
+rather than asserted, and the self-critique section no longer undersells the plugin as just
+a pasteable prompt.
+
 ## What the review pipeline checks
 
 `claude plugin validate ./devils-advocate` — the same check the pipeline runs. Passes as of v1.0.1.

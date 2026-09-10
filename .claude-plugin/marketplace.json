@@ -8,10 +8,17 @@
     {
       "name": "devil-advocate",
       "source": "./",
-      "description": "Play devil's advocate on a decision before you commit. Kill shot, three ranked attacks with runnable checks, cheaper alternative, P(mistake), forced verdict."
+      "description": "Play devil's advocate on a decision before you commit. Kill shot, three ranked attacks with runnable checks, cheaper alternative, P(mistake), forced verdict.",
+      "category": "productivity",
+      "homepage": "https://github.com/hadicancatak-coder/devils-advocate",
+      "author": {
+        "name": "Hadican Catak",
+        "url": "https://github.com/hadicancatak-coder"
+      },
+      "license": "MIT"
     }
   ],
   "metadata": {
-    "description": "Growth Fabric decision tooling for Claude Code."
+    "description": "Decision tooling for Claude Code: adversarial review before you commit."
   }
 }
