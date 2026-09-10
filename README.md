@@ -57,11 +57,11 @@ Three of four stalled, PRs open up to eleven months. Verdict: **STOP**. The plan
 
 ## Install
 
-As a plugin (skill + `/devils-advocate` command + `advocate` agent):
+As a plugin (skill + `/devil-advocate` command + `advocate` agent):
 
 ```
 /plugin marketplace add hadicancatak-coder/devils-advocate
-/plugin install devils-advocate@devils-advocate
+/plugin install devil-advocate@devil-advocate
 ```
 
 Skill only, any agent that reads `SKILL.md` (Claude Code, Codex, Cursor, others):
@@ -73,14 +73,14 @@ npx skills add hadicancatak-coder/devils-advocate
 Manual:
 
 ```bash
-git clone https://github.com/hadicancatak-coder/devils-advocate ~/.claude/plugins/devils-advocate
-ln -s ~/.claude/plugins/devils-advocate/skills/devils-advocate ~/.claude/skills/devils-advocate
+git clone https://github.com/hadicancatak-coder/devils-advocate ~/.claude/plugins/devil-advocate
+ln -s ~/.claude/plugins/devil-advocate/skills/devil-advocate ~/.claude/skills/devil-advocate
 ```
 
 ## Use
 
 ```
-/devils-advocate I'm going to rewrite our Python ETL in Rust over the next 2 months
+/devil-advocate I'm going to rewrite our Python ETL in Rust over the next 2 months
 ```
 
 Or describe a decision and say "stress test this", "poke holes", "red team this", "what am I missing". The skill triggers on its own.
@@ -124,10 +124,10 @@ Council is for "which of these is best". This is for "am I about to do something
 
 ```
 .claude-plugin/        plugin + marketplace manifests
-skills/devils-advocate/SKILL.md          the workflow the in-context agent follows
-skills/devils-advocate/advocate-prompt.md   exact prompts for the Advocate and the rebuttal round
+skills/devil-advocate/SKILL.md          the workflow the in-context agent follows
+skills/devil-advocate/advocate-prompt.md   exact prompts for the Advocate and the rebuttal round
 agents/advocate.md     the Advocate as a first-class subagent
-commands/devils-advocate.md   the slash command
+commands/devil-advocate.md    the slash command
 evals/                 calibration scenarios, results, pass criteria for prompt changes
 examples/              full runs
 ```

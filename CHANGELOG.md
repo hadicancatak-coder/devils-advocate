@@ -8,3 +8,7 @@
 - Judge runs every check that is a command before labelling.
 - Calibration set: 8 scenarios × 2 runs, results in `evals/results.md`.
 - Outcome-report issue template.
+
+## 1.0.1 — 2026-09-10
+
+- Plugin identifier is now `devil-advocate`. The name `devils-advocate` was already claimed in Anthropic's community catalog by an unrelated plugin, so the identifier had to be unique to be submittable. GitHub repo name is unchanged.

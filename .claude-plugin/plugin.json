@@ -1,7 +1,7 @@
 {
-  "name": "devils-advocate",
+  "name": "devil-advocate",
   "description": "Play devil's advocate on a decision before you commit. A cold-context adversary returns one kill shot, three ranked attacks each with a check you can run in under an hour, the cheaper alternative, and a probability you're wrong. You answer with evidence or concede, then a forced verdict. For rewrites, budget moves, launches, and any call that is expensive to reverse.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Hadican Catak",
     "url": "https://github.com/hadicancatak-coder"
@@ -10,6 +10,7 @@
   "repository": "https://github.com/hadicancatak-coder/devils-advocate",
   "license": "MIT",
   "keywords": [
+    "devil-advocate",
     "devils-advocate",
     "red-team",
     "decision-making",
@@ -17,7 +18,6 @@
     "adversarial",
     "pre-mortem",
     "second-opinion",
-    "council",
     "stress-test"
   ]
 }

@@ -1,6 +1,6 @@
 # Evals
 
-Regression tests for the Advocate prompt. Any wording change to `skills/devils-advocate/advocate-prompt.md` or `agents/advocate.md` gets re-run against these before it ships.
+Regression tests for the Advocate prompt. Any wording change to `skills/devil-advocate/advocate-prompt.md` or `agents/advocate.md` gets re-run against these before it ships.
 
 ## How to run
 

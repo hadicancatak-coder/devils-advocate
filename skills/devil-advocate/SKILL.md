@@ -1,5 +1,5 @@
 ---
-name: devils-advocate
+name: devil-advocate
 description: Use when about to commit to a decision, plan, conclusion, or recommendation and it needs to be attacked before anyone acts on it — especially when everyone already agrees, money or time is already sunk, a deadline is pushing toward yes, or the user says "poke holes", "stress test", "red team", "what am I missing".
 ---
 
@@ -36,7 +36,7 @@ Write the CLAIM exactly as big as the evidence supports. The Advocate attacks th
 
 Give it ONLY the claim block plus any raw data or file paths it needs. The prompt tells the Advocate that you chose the load-bearing assumption and that it may attack a different one; do not remove that line. Never the transcript, never your reasoning, never your preferred answer.
 
-- Plugin installed: dispatch subagent type `devils-advocate:advocate` with the claim block as the whole prompt.
+- Plugin installed: dispatch subagent type `devil-advocate:advocate` with the claim block as the whole prompt.
 - Skill only: dispatch a general-purpose subagent with the prompt in [advocate-prompt.md](advocate-prompt.md) verbatim.
 - If more than one model is available, run the Advocate on a different model than the one you are using. Different models have different blind spots.
 

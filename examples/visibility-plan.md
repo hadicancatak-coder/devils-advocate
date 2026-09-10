@@ -5,7 +5,7 @@ Unlike the other examples, this one is real. It was run on 2026-09-09 through th
 ## Claim
 
 ```
-CLAIM: Submitting the devils-advocate Claude Code plugin to community "awesome" lists and skill directories, plus one before/after post, will produce meaningful installs (say 100+ in the first month).
+CLAIM: Submitting the devil-advocate Claude Code plugin to community "awesome" lists and skill directories, plus one before/after post, will produce meaningful installs (say 100+ in the first month).
 EVIDENCE FOR: The plugin is public with a calibration table, worked examples, and a one-command install. The author's other public plugin exists but its install count is unknown. Claude Code plugins and skills are a fast-growing category with several curated lists. The README leads with a before/after quote.
 COST IF WRONG: A few hours preparing submissions, PRs under the author's name in third-party repos that may sit unmerged, and a post that gets no traction.
 LOAD-BEARING ASSUMPTION: People discover Claude Code plugins through curated lists and directories rather than through word of mouth or the official marketplace.
@@ -62,7 +62,7 @@ Three of four are stalled or abandoned; two have had no merge in six to eleven m
 **Attack 3 — is it copy-pasteable?**
 
 ```
-$ wc -l skills/devils-advocate/SKILL.md skills/devils-advocate/advocate-prompt.md agents/advocate.md
+$ wc -l skills/devil-advocate/SKILL.md skills/devil-advocate/advocate-prompt.md agents/advocate.md
  122  65  44   (231 total)
 ```
 

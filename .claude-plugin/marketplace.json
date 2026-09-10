@@ -1,12 +1,12 @@
 {
-  "name": "devils-advocate",
+  "name": "devil-advocate",
   "owner": {
     "name": "Hadican Catak",
     "url": "https://github.com/hadicancatak-coder"
   },
   "plugins": [
     {
-      "name": "devils-advocate",
+      "name": "devil-advocate",
       "source": "./",
       "description": "Play devil's advocate on a decision before you commit. Kill shot, three ranked attacks with runnable checks, cheaper alternative, P(mistake), forced verdict."
     }

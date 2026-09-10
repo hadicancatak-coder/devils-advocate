@@ -3,7 +3,7 @@
 - Date: 2026-09-09
 - Advocate model: Claude Sonnet 5 (`sonnet`), dispatched as a fresh general-purpose subagent from Claude Code
 - Judge: none (Advocate output only; P(MISTAKE) read directly)
-- Prompt: `skills/devils-advocate/advocate-prompt.md` at v1.0.0
+- Prompt: `skills/devil-advocate/advocate-prompt.md` at v1.0.0
 - Runs: 2 per scenario, 16 total, plus 1 re-run after a prompt fix (see below)
 
 | # | Scenario | Truth | Run A | Run B | Kill-shot theme (both runs) |
@@ -27,7 +27,7 @@
 
 ## The one violation (*)
 
-B3 run B returned the right number but the wrong shape: the subagent found the installed `devils-advocate` skill in its environment, loaded it, and ran the whole workflow, returning a claim block, answers, and a verdict instead of the Advocate structure. Cause: the Advocate prompt did not forbid it. Fix in v1.0.0: the line "You are the Advocate, not the judge. Do not load or run any skill, command, or workflow." added to both the prompt file and the agent definition. Re-run result after the fix is recorded below.
+B3 run B returned the right number but the wrong shape: the subagent found the installed devil's-advocate skill in its environment, loaded it, and ran the whole workflow, returning a claim block, answers, and a verdict instead of the Advocate structure. Cause: the Advocate prompt did not forbid it. Fix in v1.0.0: the line "You are the Advocate, not the judge. Do not load or run any skill, command, or workflow." added to both the prompt file and the agent definition. Re-run result after the fix is recorded below.
 
 ## Re-run after fix
 
