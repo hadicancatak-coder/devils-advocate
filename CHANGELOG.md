@@ -12,3 +12,10 @@
 ## 1.0.1 — 2026-09-10
 
 - Plugin identifier is now `devil-advocate`. The name `devils-advocate` was already claimed in Anthropic's community catalog by an unrelated plugin, so the identifier had to be unique to be submittable. GitHub repo name is unchanged.
+
+## 1.0.2 — 2026-09-10
+
+- Pre-admission review before community-marketplace submission; findings recorded in `SUBMISSION.md`.
+- Marketplace metadata reworded so it does not read as one company's internal tooling.
+- README points at the scenario files, so the calibration numbers are reproducible rather than asserted.
+- Marketplace entry carries `category`, `homepage`, `author`, and `license`.
